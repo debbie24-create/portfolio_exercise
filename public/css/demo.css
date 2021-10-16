@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display:block;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin: 10px; 
+  }
+  /* Code gotten from W3school website*/
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  /*make the active user text inherit style from container*/
+
+  .inbox__people{
+      color: white;
+      padding: 16px;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 10px 10px 10px 40px;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s;
+  }
+
+  /* Change color on hover */
+  .sidenav a:hover {
+    color: black;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 32px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 400px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    
+  }
+
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }

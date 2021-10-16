@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css\demo.css">
+
+    </head>
+
+    <body>
+      <!--   
+      <div class="container">
+            <div class="nav-casing">
+                <div class="left-part">
+                    <div class="nav-link-casing">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="nav-link-casing">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+
+                <div class="right-part">  
+                    <div class="logo">
+                        <div>DEBORAH OMO-OBI</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>    
+    -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+    </a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div class="right-edge">
+        <div class="logo-name">
+            <div>DEBORAH OMO-OBI</div>
+        </div>
+    </div>
+      <!--<p>This is the home page</p>-->
+      <p><strong>Hello!</strong></p>
+      <p>Welcome to my website.</p>
+      <span style="font-size: 20px;cursor:pointer" onclick="openNav()">&#9776;
+      click here</span>
+
+        <p><a href = "chat.html">Chat</a></p>
+        
+        <script src="js/client.js" async defer></script>
+        
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav(){
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+         
+</body>
+</html>
