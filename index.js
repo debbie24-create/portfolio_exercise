@@ -1,6 +1,8 @@
 const express = require("express");
 const socket = require("socket.io");
 
+console.log("Pushing to codio")
+
 // App setup
 const PORT = 5000;
 const app = express();
